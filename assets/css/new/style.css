@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap";
+
 * {
     font-family: sofia-pro !important
 }
@@ -564,6 +565,7 @@ header .SearchLocation .Search .SearchInput .SearchResult .SelectServiceVanue .f
     from {
         padding-right: 10px
     }
+
     to {
         padding-right: 0
     }
@@ -578,6 +580,7 @@ header .SearchLocation .Search .SearchInput .SearchResult .SelectServiceVanue .f
     from {
         padding-left: 10px
     }
+
     to {
         padding-left: 0
     }
@@ -868,6 +871,7 @@ header .SearchLocation .location .circle::before {
         transform: scale(1, 1);
         opacity: 1
     }
+
     100% {
         transform: scale(1.8, 1.8);
         opacity: 0
@@ -3950,9 +3954,11 @@ header .NavLink ul li a.Contact:hover {
     0% {
         transform: scaleY(100%)
     }
+
     20% {
         transform: scaleY(200%)
     }
+
     40% {
         transform: scaleY(100%)
     }
@@ -4032,6 +4038,7 @@ header .NavLink ul li a.Contact:hover {
     .checkout .checkout-body .booking-details.first {
         border: none
     }
+
     .checkout .checkout-body .booking-details form table tr td:nth-child(1) {
         line-height: 41px
     }
@@ -4049,6 +4056,7 @@ header .NavLink ul li a.Contact:hover {
         display: block;
         width: 100% !important
     }
+
     .booking-details form table tr td:first-child {
         font-size: 18px !important
     }
@@ -4065,6 +4073,7 @@ header .NavLink ul li a.Contact:hover {
         flex-direction: column;
         width: 100% !important
     }
+
     .container .checkout {
         padding: 0
     }
@@ -5658,6 +5667,7 @@ header .NavLink ul li a.Contact:hover {
         transform: translate(100%, 0);
         width: 100%
     }
+
     to {
         transform: translate(0%, 0);
         width: 100%
@@ -5684,6 +5694,7 @@ header .NavLink ul li a.Contact:hover {
         transform: translate(0%, 0);
         width: 100%
     }
+
     to {
         transform: translate(100vw, 0);
         width: 0
@@ -5895,6 +5906,7 @@ header .NavLink ul li a.Contact:hover {
     from {
         translate: transform(50px, 50px)
     }
+
     to {
         translate: transform(0, 0px)
     }
@@ -8099,18 +8111,23 @@ body .service-listing-parent .services .service-boxes-container .service-boxes .
     .services .preferences-container {
         width: 25% !important
     }
+
     .services .service-boxes-container {
         width: 75% !important
     }
+
     .services .service-boxes-container .boxes .service-card {
         width: calc((100% - 24px)/2) !important
     }
+
     .services .service-boxes-container .service-pop-up {
         width: 100% !important
     }
+
     .services .service-boxes-container .service-pop-up .menu-options ul {
         grid-template-columns: repeat(3, 1fr) !important
     }
+
     .services .service-boxes-container .service-pop-up .menu-options ul>div li {
         border: 1px solid #e7e5e5 !important
     }
@@ -8120,12 +8137,15 @@ body .service-listing-parent .services .service-boxes-container .service-boxes .
     .service-listing-parent .carousel-slider {
         height: calc(250px + 3vw)
     }
+
     .owl-carousel .owl-dots {
         text-align: center !important
     }
+
     .owl-carousel .owl-dots::after {
         display: none
     }
+
     .services .preferences-container {
         position: absolute !important;
         left: 0;
@@ -8136,18 +8156,23 @@ body .service-listing-parent .services .service-boxes-container .service-boxes .
         z-index: 999;
         overflow: hidden
     }
+
     .services .preferences-container::after {
         display: none !important
     }
+
     .services .preferences-container.show {
         width: 220px !important
     }
+
     .services .service-boxes-container {
         width: 100% !important
     }
+
     .services .service-boxes-container .top-row ul svg {
         display: inline-block !important
     }
+
     .services .service-boxes-container .packages-pop-up {
         padding: 19px 15px 28px !important
     }
@@ -8157,39 +8182,49 @@ body .service-listing-parent .services .service-boxes-container .service-boxes .
     .carousel-slider {
         height: calc(340px + 3vw) !important
     }
+
     .services .service-boxes-container .service-boxes .top-row ul>svg {
         height: 20px !important;
         margin-right: 8px !important;
         width: 20px !important
     }
+
     .services .service-boxes-container .service-boxes .top-row ul li {
         font-size: 14px !important;
         padding-right: 20px !important
     }
+
     .services .service-boxes-container .service-boxes .top-row ul li::after {
         right: 5px !important
     }
+
     .services .service-boxes-container .service-boxes .top-row ul li.active svg {
         height: 10px;
         width: 10px
     }
+
     .services .service-boxes-container .service-boxes .top-row p {
         height: 25px !important
     }
+
     .services .service-boxes-container .service-boxes .top-row p span {
         font-size: 14px !important;
         height: 25px !important
     }
+
     .services .service-boxes-container .service-boxes .top-row p span.slide-up {
         margin-top: -25px !important
     }
+
     .services .service-boxes-container .service-boxes .top-row p svg {
         height: 10px;
         width: 10px
     }
+
     .services .service-boxes-container .service-pop-up {
         width: 100% !important
     }
+
     .services .service-boxes-container .service-pop-up .menu-options ul {
         grid-template-columns: repeat(2, 1fr) !important
     }
@@ -8199,12 +8234,15 @@ body .service-listing-parent .services .service-boxes-container .service-boxes .
     .carousel-slider {
         height: calc(300px + 3vw) !important
     }
+
     .services .service-boxes-container .boxes .service-card {
         width: 100% !important
     }
+
     .services .service-boxes-container .service-pop-up .menu ul {
         padding: 0 !important
     }
+
     .services .service-boxes-container .service-pop-up .menu ul li {
         margin-right: 10px !important;
         width: 80px !important
@@ -8561,16 +8599,20 @@ body .service-listing-parent .services .service-boxes-container .service-boxes .
     0% {
         opacity: 0
     }
+
     10% {
         transform: translate(-100vw, 0);
         opacity: 0
     }
+
     20% {
         opacity: 1
     }
+
     60% {
         transform: translate(5%, 0)
     }
+
     100% {
         transform: translate(0, 0)
     }
@@ -8589,16 +8631,20 @@ body .service-listing-parent .services .service-boxes-container .service-boxes .
     0% {
         opacity: 0
     }
+
     10% {
         transform: translate(100vw, 0);
         opacity: 0
     }
+
     20% {
         opacity: 1
     }
+
     60% {
         transform: translate(-5%, 0)
     }
+
     100% {
         transform: translate(0, 0)
     }
@@ -8612,12 +8658,15 @@ body .service-listing-parent .services .service-boxes-container .service-boxes .
     10% {
         transform: translate(-50px, 0)
     }
+
     50% {
         transform: translate(-50px, 0)
     }
+
     60% {
         transform: translate(0px, 0)
     }
+
     100% {
         transform: translate(0px, 0)
     }
@@ -9966,31 +10015,40 @@ footer .reserved p {
     .packages-parent {
         padding-bottom: 50px
     }
+
     .packages-parent .head-row ul li {
         margin-left: 20px
     }
+
     .packages-parent .packages-body {
         margin: 0 !important
     }
+
     .packages-parent .packages-body>.col-lg-8 {
         padding: 0
     }
+
     .packages-parent .packages-body .packages {
         padding-bottom: 30px
     }
+
     .packages-parent .packages {
         height: 80%
     }
+
     .packages-parent .packages .package-details {
         height: -moz-max-content;
         height: max-content
     }
+
     .packages-parent .packages .package-details:last-child {
         margin-top: 30px
     }
+
     .packages-parent .package-content {
         flex-wrap: wrap
     }
+
     .packages-parent .package-content .about-package {
         width: 100% !important
     }
@@ -10000,14 +10058,17 @@ footer .reserved p {
     .packages-parent .head-row {
         flex-direction: column
     }
+
     .packages-parent .head-row ul {
         overflow: auto;
         border-bottom: none
     }
+
     .packages-parent .head-row ul svg {
         margin-right: 25px;
         flex-shrink: 0
     }
+
     .packages-parent .head-row ul li {
         width: -moz-max-content;
         width: max-content;
@@ -10015,12 +10076,15 @@ footer .reserved p {
         margin: 0;
         margin-right: 25px
     }
+
     .packages-parent .head-row .gender-toggle {
         margin: 0
     }
+
     .packages-parent .packages {
         margin-top: 20px
     }
+
     .RightSide {
         margin-top: 40px
     }
@@ -10030,11 +10094,13 @@ footer .reserved p {
     .salon {
         flex-direction: column
     }
+
     .salon .pic {
         margin: 0 !important;
         height: 200px !important;
         width: 100% !important
     }
+
     .salon .salon-detail {
         width: 100% !important;
         margin: 19px 0 0 19px
@@ -10115,9 +10181,11 @@ footer .reserved p {
         align-items: baseline !important;
         flex-direction: column !important
     }
+
     .service-boxes .top-row p {
         align-items: flex-start !important
     }
+
     .service-boxes .packages-pop-up {
         top: 120px !important
     }
@@ -10426,6 +10494,7 @@ body nav .pagination .page-item .page-link {
     0% {
         background-position: -468px 0
     }
+
     100% {
         background-position: 468px 0
     }
@@ -10502,9 +10571,11 @@ body nav .pagination .page-item .page-link {
     0% {
         transform: scaleY(100%)
     }
+
     20% {
         transform: scaleY(200%)
     }
+
     40% {
         transform: scaleY(100%)
     }
@@ -10642,6 +10713,7 @@ div.loader {
     from {
         transform: rotate(0deg)
     }
+
     to {
         transform: rotate(360deg)
     }
@@ -10727,4 +10799,8 @@ div.loader {
     line-height: 24px;
     text-align: center;
     color: #999
+}
+
+.bgcontact {
+    background: transparent linear-gradient(180deg, rgba(29, 29, 29, 0.5764705882) 0%, rgba(26, 26, 26, 0) 100%) 0% 0% no-repeat padding-box;
 }
