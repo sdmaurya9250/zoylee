@@ -891,7 +891,7 @@ section {
 
 .footer {
     /* background: url(../images/Footer.png) no-repeat center; */
-    background-color: #1a191c;
+    /* background-color: #1a191c; */
     /* height          : 600px; */
     background-size: cover;
 }

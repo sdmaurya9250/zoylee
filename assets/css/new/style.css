@@ -18,7 +18,7 @@
 }
 
 * body {
-    background-color: #363636 !important
+    background-color: #90EE90 !important
 }
 
 * body .Green {
@@ -8530,6 +8530,8 @@ body .service-listing-parent .services .service-boxes-container .service-boxes .
 
 .zoyleeBusiness .background {
     background: transparent linear-gradient(180deg, rgba(29, 29, 29, 0.5764705882) 0%, rgba(26, 26, 26, 0) 100%) 0% 0% no-repeat padding-box;
+    background-color: lightgreen;
+
     border-radius: 43px;
     padding: 68px 40px
 }
