@@ -116,8 +116,9 @@
     <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
 
     <style>
         /* Add your custom styles here */
@@ -146,6 +147,7 @@
         .contact-item .nav-link {
             color: black;
         }
+
         .nav-link {
             text-align: left;
         }
@@ -159,6 +161,9 @@
         .py-3 .container {
             margin-top: 5%;
         }
+        .Tab .nav{
+        float: left;
+    }
     </style>
     <style>
         section {
@@ -306,8 +311,16 @@
         .navbar-dark .navbar-nav .nav-link {
             color: #000;
         }
-        link:focus, .navbar-dark .navbar-nav .nav-link:hover{
-            color: lightgreen;
+
+        link:focus,
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: green;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 0px;
+            margin-right: 10px;
         }
     </style>
 
@@ -342,6 +355,7 @@
             }
         }
     </script>
+    
 </head>
 
 <body style="overflow-x: hidden;">
@@ -350,53 +364,48 @@
             style="display:none;visibility:hidden" defer=""></iframe></noscript>
 
 
-    <header class="bg-green">
+    <header class="bg-transparent">
         <nav class="navbar navbar-expand-lg navbar-dark container">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="assets/images/logoh.png" alt="Logo">
                 </a>
                 <!-- <a class="navbar-brand" href="#">
-                    <img style="background-color : white; border-radius: 15px; padding: 0px 0px;"
-                        src="assets/images/name logo1.png" alt="Logo">
-                </a> -->
+                            <img style="background-color : white; border-radius: 15px; padding: 0px 0px;"
+                                src="assets/images/name logo1.png" alt="Logo">
+                        </a> -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <p class="social-img">
+                        <a href="#" target="_blank">
+                            <img src="assets/images/FB.png" alt="fb" class="social-icon">
+                        </a>
+                        <a href="#" target="_blank">
+                            <img src="assets/images/insta.png" alt="instagram" class="social-icon">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="assets/images/YT.png" alt="youtube" class="social-icon">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="assets/images/Twtr.png" alt="twitter" class="social-icon">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="assets/images/linkedin.png" alt="linkedin" class="social-icon">
+                        </a>
+                    </p>
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
                         <li class="nav-item contact-item">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
-                <p class="social-img">
-                    <a href="#" target="_blank">
-                        <img src="assets/images/FB.png" alt="fb" class="social-icon">
-                    </a>
-                    <a href="#" target="_blank">
-                        <img src="assets/images/insta.png" alt="instagram" class="social-icon">
-                    </a>
-                    <a href="" target="_blank">
-                        <img src="assets/images/YT.png" alt="youtube" class="social-icon">
-                    </a>
-                    <a href="" target="_blank">
-                        <img src="assets/images/Twtr.png" alt="twitter" class="social-icon">
-                    </a>
-                    <a href="" target="_blank">
-                        <img src="assets/images/linkedin.png" alt="linkedin" class="social-icon">
-                    </a>
-                </p>
             </div>
         </nav>
     </header>
+
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
@@ -630,42 +639,33 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="bannerService">
-                            <div class="Single HomeBased" data-bs-toggle="modal" data-bs-target="#homeBasedModal">
-                                <a href="javascript:void(0)">
+                        <div class="row">
+                            <div class="bannerService">
+                                <div class="Single HomeBased" data-bs-toggle="modal" data-bs-target="#homeBasedModal">
+                                    <a href="javascript:void(0)">
+                                        <div class="row">
+                                            <div class="Text">
+                                                <h4 class="text-green" style="color: green;">Hair & Beauty Appointments for
+                                                    your home</h4>
+                                            </div>
+    
+                                            <div class="Image">
+                                                <img src="assets/images/new-home-1/home-based.png" alt="Banner Image" />
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="Single Find">
                                     <div class="row">
                                         <div class="Text">
-                                            <h4 class="text-green" style="color: green;">Hair & Beauty Appointments for
-                                                your home</h4>
+                                            <h4 style="color: gold;">Find top-rated salons, Spas, and Parlours Around You
+                                            </h4>
                                         </div>
-
+    
                                         <div class="Image">
-                                            <img src="assets/images/new-home-1/home-based.png" alt="Banner Image" />
+                                            <img src="assets/images/new-home-1/salon.png" alt="Home Based" />
                                         </div>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="Single Find">
-                                <div class="row">
-                                    <div class="Text">
-                                        <h4 style="color: gold;">Find top-rated salons, Spas, and Parlours Around You
-                                        </h4>
-                                    </div>
-
-                                    <div class="Image">
-                                        <img src="assets/images/new-home-1/salon.png" alt="Home Based" />
-                                    </div>
-                                </div>
-                                <div class="Buttons">
-                                    <button type="button" class="btn">
-                                        <a href="/salon" class="text-black">Explore Nearby Salons</a>
-                                    </button>
-                                    <button type="button" class="btn">
-                                        <a href="/parlour" class="text-black">Parlour</a>
-                                    </button>
-                                    <button type="button" class="btn">
-                                        <a href="/spa" class="text-black">Spa</a>
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -673,6 +673,42 @@
                 </div>
             </div>
         </div>
+        <!-- <section>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="Single HomeBased" data-bs-toggle="modal" data-bs-target="#homeBasedModal">
+                            <a href="javascript:void(0)">
+                                <div class="row">
+                                    <div class="Text">
+                                        <h4 class="text-green" style="color: green;">Hair & Beauty Appointments for
+                                            your home</h4>
+                                    </div>
+
+                                    <div class="Image">
+                                        <img src="assets/images/new-home-1/home-based.png" alt="Banner Image" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="Single Find">
+                            <div class="row">
+                                <div class="Text">
+                                    <h4 style="color: gold;">Find top-rated salons, Spas, and Parlours Around You
+                                    </h4>
+                                </div>
+
+                                <div class="Image">
+                                    <img src="assets/images/new-home-1/salon.png" alt="Home Based" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
 
     </section>
     <!-- <section class="TopSlider">
@@ -746,12 +782,16 @@
                                                                 d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
                                                         </svg>
                                                     </a>
-                                                    <a href="https://wa.me/0000000000/?text=Welcome" class="unset-color">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                                                    <a href="https://wa.me/0000000000/?text=Welcome"
+                                                        class="unset-color">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                                            fill="currentColor" class="bi bi-whatsapp"
+                                                            viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
                                                         </svg>
                                                     </a>
-                                                    
+
                                                     <a href="tel:+9076056386" class="unset-color">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
                                                             fill="currentColor" class="bi bi-telephone-fill"
@@ -1136,59 +1176,6 @@
             </div>
         </div>
     </section> -->
-
-    <section class="galley mb-5">
-        <div class="container">
-            <h1 class="about" style=" text-align: center; margin-top: 5%;margin-bottom: 5%;">Our
-                Gallery
-            </h1>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="gallery-item">
-                        <img src="/assets/images/gallery/hair1.jpeg" alt="Image 1">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gallery-item">
-                        <img src="/assets/images/gallery/hair2.jpg" alt="Image 2">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gallery-item">
-                        <img src="/assets/images/gallery/barber-edited-scaled.webp" alt="Image 3">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gallery-item">
-                        <img src="assets/images/gallery/professional-hairdresser-work-ma.webp" alt="Image 4">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <style>
-        .gallery-item {
-            margin-bottom: 20px;
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: auto;
-            transition: transform 0.3s ease;
-        }
-
-        .gallery-item:hover img {
-            transform: scale(1.1);
-        }
-    </style>
 
     <div class="modal fade" id="homeBasedModal">
         <div class="modal-dialog">

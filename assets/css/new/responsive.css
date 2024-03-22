@@ -540,6 +540,14 @@
     .banner .bannerContent .row .bannerService {
         padding-top: 129px
     }
+    .banner .bannerContent .row .Single .row 
+    {
+        vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    }
     .banner .bannervideo {
         height: 463.53px
     }
