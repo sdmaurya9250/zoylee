@@ -112,6 +112,54 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/new/slider.css">
     <link rel="stylesheet" href="assets/css/new/slick.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <style>
+        /* Add your custom styles here */
+        .navbar-brand img {
+            height: 80px;
+            /* Adjust the height as needed */
+        }
+
+        .social-icon {
+            width: 30px;
+            /* Adjust the width as needed */
+            height: 30px;
+            /* Adjust the height as needed */
+        }
+
+        .nav-link {
+            font-weight: bold;
+        }
+
+        .contact-item {
+            background-color: white;
+            border-radius: 15px;
+            padding: 1px 8px;
+        }
+
+        .contact-item .nav-link {
+            color: black;
+        }
+        .nav-link {
+            text-align: left;
+        }
+
+        .py-3 .badge {
+            text-align: center;
+            padding: 1% 1%;
+            margin-left: 45%;
+        }
+
+        .py-3 .container {
+            margin-top: 5%;
+        }
+    </style>
     <style>
         section {
             overflow: initial !important;
@@ -152,7 +200,6 @@
 
         .contact-form {
             background-color: #fff;
-            /* Change form background color as needed */
             padding: 30px;
             border-radius: 5px;
         }
@@ -170,7 +217,6 @@
             width: 100%;
             padding: 10px;
             border: 1px solid #ccc;
-            /* Change border color as needed */
             border-radius: 5px;
         }
 
@@ -250,6 +296,19 @@
                 font-size: 20px;
             }
         }
+
+        @media (max-width: 991px) {
+            .social-img {
+                display: none;
+            }
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #000;
+        }
+        link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+            color: lightgreen;
+        }
     </style>
 
     <script type="application/ld+json">
@@ -285,19 +344,90 @@
     </script>
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFKX6KR" height="0" width="0"
             style="display:none;visibility:hidden" defer=""></iframe></noscript>
 
 
-    <header class="Homepage">
+    <header class="bg-green">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logoh.png" alt="Logo">
+                </a>
+                <!-- <a class="navbar-brand" href="#">
+                    <img style="background-color : white; border-radius: 15px; padding: 0px 0px;"
+                        src="assets/images/name logo1.png" alt="Logo">
+                </a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item contact-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="social-img">
+                    <a href="#" target="_blank">
+                        <img src="assets/images/FB.png" alt="fb" class="social-icon">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="assets/images/insta.png" alt="instagram" class="social-icon">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="assets/images/YT.png" alt="youtube" class="social-icon">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="assets/images/Twtr.png" alt="twitter" class="social-icon">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="assets/images/linkedin.png" alt="linkedin" class="social-icon">
+                    </a>
+                </p>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+    <!-- <header class="Homepage">
         <div class="container">
             <div class="row HeaderRow">
-                <div class="Logo">
-                    <a href="/">
-                        <img src="assets/images/logoh.png" alt="Logo" />
-                    </a>
+                <div class="col-md-6">
+                    <div class="Logo">
+                        <a href="/">
+                            <img src="assets/images/logoh.png" alt="Logo" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="social-img">
+                        <a href="#" target="_blank">
+                            <img src="assets/images/FB.png" alt="fb" class="social-icon">
+                        </a>
+                        <a href="#" target="_blank">
+                            <img src="assets/images/insta.png" alt="instagram" class="social-icon">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="assets/images/YT.png" alt="youtube" class="social-icon">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="assets/images/Twtr.png" alt="twitter" class="social-icon">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="assets/images/linkedin.png" alt="linkedin" class="social-icon">
+                        </a>
+                    </p>
                 </div>
 
                 <div class="ToogleButton">
@@ -311,128 +441,24 @@
                             height="41" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                        </svg></button>
+                        </svg></button> -->
 
 
-                    <div id="myNav" class="overlay">
+
+
+
+    <!-- <div id="myNav" class="overlay">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                         <a href="/">Home</a>
                         <a href="#about">About</a>
                         <a href="#ContactUs">Contact Us</a>
-                    </div>
+                    </div> -->
 
-                </div>
-                <!-- <div class="SearchLocation">
-                    <div class="Search">
-                        <div class="SearchInput">
-                            <input type="text" id="searchbar" placeholder="Search for a service or venue">
-                            <img class="Clear" onclick="if (!window.__cfRLUnblockHandlers) return false; document.getElementById('searchbar').value = ''" src="assets/images/header/cross.png" alt="Clear" data-cf-modified-f70425ea6728d56e2ddf1d1e- />
-                            <div class="SearchResult">
-                                <div class="SelectServiceVanue">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-check">
-                                                <input type="radio" class="form-check-input" id="Searchsalon" name="slaon-type" value="onsalon" checked>
-                                                <label class="form-check-label" for="Searchsalon">Zoylee</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-check">
-                                                <input type="radio" class="form-check-input" id="searchzoyleeathome" name="slaon-type" value="athome">
-                                                <label class="form-check-label" for="searchzoyleeathome">Zoylee At
-Home</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="Scroll">
-                                    <div class="SearchByDefault">
-                                        <div class="Keywords">
-                                            <ul>
-                                                <li>
-                                                    <a href="services/mens-haircut">Haircut</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/mens-hair-color">Hair Color</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/mens-facial">Facial</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/mens-trimming">Trimming</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/ladies-body-waxing">Body Waxing</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/ladies-nail-extension">Nail Extension</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/mens-head-massage">Head Massage</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/mens-body-massage">Body Massage</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/ladies-haircut">Haircut</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/ladies-hair-styling">Hair Styling</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/ladies-hair-color">Hair Color</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/ladies-threading">Threading</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/ladies-facial">Facial</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/ladies-makeup">Makeup</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/ladies-manicure">Manicure</a>
-                                                </li>
-                                                <li>
-                                                    <a href="services/ladies-pedicure">Pedicure</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="RecentSearch">
-                                            <h6 class="text-black">Recent searches</h6>
-                                            <ul></ul>
-                                        </div>
-                                    </div>
-                                    <div class="SearchActive"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="location">
-                        <p id="user-location"> <span class="circle"></span>
-                        </p>
-                        <button type="button" class="btn CloseSearch"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
-<path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z">
-</path>
-</svg></button>
-                        <div class="location-menu">
-                            <div class="LocationInputs">
-                                <input type="text" id="searchbox" aria-describedby="basic-addon1" placeholder="Search a location" class="search-location">
-                                <div class="Buttons">
-                                    <button type="button" class="btn CloseLocation"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
-</svg></button>
-                                    <button class="d-flex align-items-center justify-content-center locate-me-btn" id="basic-addon-desktop">
-<img src="assets/images/header/aim.png" alt="aim">
-<span>Near me</span>
-</button>
-                                </div>
-                            </div>
-                            <div class="location-results"></div>
-                        </div>
-                    </div>
-                </div> -->
+
+
+
+
+    <!-- </div>
                 <div class="NavLink">
                     <div class="ForPhone">
                         <div class="row">
@@ -520,67 +546,64 @@ Home</label>
                             <a href="#ContactUs" class="Contact">Contact Us</a>
                         </li>
                     </ul>
-                    
                 </div>
-                <p class="social-img">
-                        <a href="#" target="_blank">
-                            <img src="assets/images/FB.png" alt="fb" class="social-icon">
-                        </a>
-                        <a href="#" target="_blank">
-                            <img src="assets/images/insta.png" alt="instagram" class="social-icon">
-                        </a>
-                        <a href="" target="_blank">
-                            <img src="assets/images/YT.png" alt="youtube" class="social-icon">
-                        </a>
-                        <a href="" target="_blank">
-                            <img src="assets/images/Twtr.png" alt="twitter" class="social-icon">
-                        </a>
-                        <a href="" target="_blank">
-                            <img src="assets/images/linkedin.png" alt="linkedin" class="social-icon">
-                        </a>
-                    </p>
             </div>
         </div>
     </header>
-<style>
-    .row .p{
-        text-align: right;
-    }
-    .row .social-img{
-        text-align: right;
-    }
-</style>
+    <style>
+        .row .p {
+            text-align: right;
+        }
+
+        .row .social-img {
+            text-align: right;
+        }
+    </style> -->
+
+
+
+
     <section class="banner">
 
         <div class="bannervideo">
-            <video class="standard" autoplay muted loop src="assets\banner-video-mobile\banner-video.mp4"
+            <video class="standard" autoplay muted loop src="assets\banner-video-mobile\banner-video1.mp4"
                 type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <video class="phone" autoplay muted loop src="assets\banner-video-mobile\banner-video.mp4" type="video/mp4">
+            <video class="phone" autoplay muted loop src="assets\banner-video-mobile\banner-video1.mp4"
+                type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
-
-
+        <style>
+            .banner .bannervideo video {
+                width: 100%;
+                display: block;
+            }
+        </style>
         <div class="bannerContent">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="bannerText">
-                            <h1 class>Get Appointment for <br /> <span style="color: gold;">Nearby Beauty Services</span></h1>
+                            <h1 class>Get Appointment for <br /> <span style="color: gold;">Nearby Beauty
+                                    Services</span></h1>
                             <ul>
                                 <li>
-                                    <a href="https://play.google.com/store/apps/details?id=com.urbanclap.urbanclap">Haircut</a>
+                                    <a
+                                        href="https://play.google.com/store/apps/details?id=com.urbanclap.urbanclap">Haircut</a>
                                 </li>
                                 <li>
-                                    <a href="https://play.google.com/store/apps/details?id=com.urbanclap.urbanclap">Hair Color</a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.urbanclap.urbanclap">Hair
+                                        Color</a>
                                 </li>
                                 <li>
-                                    <a href="https://play.google.com/store/apps/details?id=com.urbanclap.urbanclap">Facial</a>
+                                    <a
+                                        href="https://play.google.com/store/apps/details?id=com.urbanclap.urbanclap">Facial</a>
                                 </li>
                                 <li>
-                                    <a href="https://play.google.com/store/apps/details?id=com.urbanclap.urbanclap">Trimming</a>
+                                    <a
+                                        href="https://play.google.com/store/apps/details?id=com.urbanclap.urbanclap">Trimming</a>
                                 </li>
                             </ul>
                             <h4>
@@ -612,9 +635,10 @@ Home</label>
                                 <a href="javascript:void(0)">
                                     <div class="row">
                                         <div class="Text">
-                                            <h4 class="text-green" style="color: green;">Hair & Beauty Appointments for your home</h4>
+                                            <h4 class="text-green" style="color: green;">Hair & Beauty Appointments for
+                                                your home</h4>
                                         </div>
-                                        
+
                                         <div class="Image">
                                             <img src="assets/images/new-home-1/home-based.png" alt="Banner Image" />
                                         </div>
@@ -624,9 +648,10 @@ Home</label>
                             <div class="Single Find">
                                 <div class="row">
                                     <div class="Text">
-                                        <h4 style="color: gold;">Find top-rated salons, Spas, and Parlours Around You</h4>
+                                        <h4 style="color: gold;">Find top-rated salons, Spas, and Parlours Around You
+                                        </h4>
                                     </div>
-                                    
+
                                     <div class="Image">
                                         <img src="assets/images/new-home-1/salon.png" alt="Home Based" />
                                     </div>
@@ -675,17 +700,18 @@ Home</label>
                             <h5>BUSINESS</h5> -->
                         </div>
                         <div class="Tab">
-
                             <ul class="nav nav-tabs">
                                 <li class="nav-item">
-                                    <a class="nav-link active" data-bs-toggle="tab" href="#forsaloons" style="color: gold;">For Users</a>
+                                    <a class="nav-link active" data-bs-toggle="tab" href="#forsaloons"
+                                        style="color: gold;">For Users</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-bs-toggle="tab" href="#forArtists" style="color: gold;">For Salons</a>
+                                    <a class="nav-link" data-bs-toggle="tab" href="#forArtists" style="color: gold;">For
+                                        Salons</a>
                                 </li>
-                                
                             </ul>
                         </div>
+
                     </div>
                 </div>
                 <div class="TabView">
@@ -698,6 +724,44 @@ Home</label>
                                             <h4>Get Registered with Zoylee</h4>
                                             <p>Begin using Zoylee to improve the way you operate your business.
                                                 All-in-one application for you and your clients. Kindly click on</p>
+
+                                            <div class="submiteicone">
+                                                <h4>
+                                                    <a href="https://play.google.com/store/apps/details?id=com.zoylee"
+                                                        class="unset-color">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                                            fill="currentColor" class="bi bi-google-play"
+                                                            viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055zM1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27" />
+                                                        </svg>
+                                                    </a>
+                                                    <a href="https://apps.apple.com/us/app/id1518214581"
+                                                        class="unset-color">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                                            fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                                                            <path
+                                                                d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                                                        </svg>
+                                                    </a>
+                                                    <a href="https://wa.me/0000000000/?text=Welcome" class="unset-color">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                                                        </svg>
+                                                    </a>
+                                                    
+                                                    <a href="tel:+9076056386" class="unset-color">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                                            fill="currentColor" class="bi bi-telephone-fill"
+                                                            viewBox="0 0 16 16">
+                                                            <path fill-rule="evenodd"
+                                                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                                                        </svg>
+                                                    </a>
+                                                </h4>
+                                            </div>
                                             <button type="button" class="btn">
                                                 <a class="unset-color" href="https://business.zoylee.com/">Boost My
                                                     Business</a>
@@ -749,7 +813,99 @@ Home</label>
         </div>
     </section>
 
-    <section class="whyChoose" id="about">
+    <!-- About 1 - ABOUT-->
+    <section class="py-3 py-md-5" id="about">
+        <!-- <h1 class="font-weight-bold" style="text-align: center; text-decoration: solid;">ABOUT</h1> -->
+        <h1 class="about">About</h1>
+        <div class="container">
+            <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+                <div class="col-12 col-lg-6 col-xl-5">
+                    <img class="img-fluid rounded" loading="lazy" src="assets/images/new-home-1/salon.png"
+                        alt="About 1">
+                </div>
+                <div class="col-12 col-lg-6 col-xl-7">
+                    <div class="row justify-content-xl-center">
+                        <div class="col-12 col-xl-11">
+                            <h2 class="mb-3">Who Are We?</h2>
+                            <p class="lead fs-4 text-secondary mb-3">We help people to build incredible brands and
+                                superior products. Our perspective is to furnish outstanding captivating services.</p>
+                            <p class="mb-5">We are a fast-growing company, but we have never lost sight of our core
+                                values. We believe in collaboration, innovation, and customer satisfaction. We are
+                                always looking for new ways to improve our products and services.</p>
+                            <div class="row gy-4 gy-md-0 gx-xxl-5X">
+                                <div class="col-12 col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-4 text-primary">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                                fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h2 class="h4 mb-3">Versatile Brand</h2>
+                                            <p class="text-secondary mb-0">We are crafting a digital method that
+                                                subsists life across all mediums.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-4 text-primary">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                                fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h2 class="h4 mb-3">Digital Agency</h2>
+                                            <p class="text-secondary mb-0">We believe in innovation by merging primary
+                                                with elaborate ideas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <style>
+        @media (max-width: 991px) and (min-width: 450px) {
+            #about .container {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            #about .col-12.col-lg-6.col-xl-5 {
+                flex: 0 0 100%;
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+            #about .col-12.col-lg-6.col-xl-7 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            #about img.img-fluid.rounded {
+                width: 100%;
+            }
+        }
+    </style>
+    
+    <style>
+        .about {
+          /* color: black; Text color */
+          text-align: center;
+          font-weight: 600;
+          color: gold;
+          /* border: 2px solid black; */
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow effect */
+        }
+      </style>
+
+    <!-- <section class="whyChoose" id="about">
         <h2 class="text-center">About</h2>
         <div class="container">
             <div class="row">
@@ -979,7 +1135,60 @@ Home</label>
 
             </div>
         </div>
+    </section> -->
+
+    <section class="galley mb-5">
+        <div class="container">
+            <h1 class="about" style=" text-align: center; margin-top: 5%;margin-bottom: 5%;">Our
+                Gallery
+            </h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="gallery-item">
+                        <img src="/assets/images/gallery/hair1.jpeg" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-item">
+                        <img src="/assets/images/gallery/hair2.jpg" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-item">
+                        <img src="/assets/images/gallery/barber-edited-scaled.webp" alt="Image 3">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery/professional-hairdresser-work-ma.webp" alt="Image 4">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        .gallery-item {
+            margin-bottom: 20px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+    </style>
 
     <div class="modal fade" id="homeBasedModal">
         <div class="modal-dialog">
@@ -1106,7 +1315,7 @@ Home</label>
             margin-top: 30px;
         }
     </style> -->
-    
+
     <!-- <section class="popular-saloon whereWeAre pb-3 pt-5">
         <div class="container">
             <div class="tabbar">
@@ -1399,51 +1608,55 @@ Home</label>
 
     <section class="footerl">
         <div class="row mob-center">
-            <div class="footer">
-                <div class="m-3">
-                    <div class="row mt-3">
-                        <div class="row mob-center">
-                            <p class="social-img">
-                                <a href="#" target="_blank">
-                                    <img src="assets/images/FB.png" alt="fb" class="social-icon">
-                                </a>
-                                <a href="#" target="_blank">
-                                    <img src="assets/images/insta.png" alt="instagram" class="social-icon">
-                                </a>
-                                <a href="" target="_blank">
-                                    <img src="assets/images/YT.png" alt="youtube" class="social-icon">
-                                </a>
-                                <a href="" target="_blank">
-                                    <img src="assets/images/Twtr.png" alt="twitter" class="social-icon">
-                                </a>
-                                <a href="" target="_blank">
-                                    <img src="assets/images/linkedin.png" alt="linkedin" class="social-icon">
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
+
             <div class="col-lg-12 col-md-12 text-center">
-                <p class=" font-14 copy-right font-w-600">
-                    &copy; 2024 Zoylee Web Services. All Rights Reserved
-                </p>
+                <div class="llk">
+                    <p class="social-img1">
+                        <a href="#" target="_blank">
+                            <img src="assets/images/FB.png" alt="fb" class="social-icon">
+                        </a>
+                        <a href="#" target="_blank">
+                            <img src="assets/images/insta.png" alt="instagram" class="social-icon">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="assets/images/YT.png" alt="youtube" class="social-icon">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="assets/images/Twtr.png" alt="twitter" class="social-icon">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="assets/images/linkedin.png" alt="linkedin" class="social-icon">
+                        </a>
+                    </p>
+                    <p class=" font-14 copy-right font-w-600">
+                        &copy; 2024 Zoylee Web Services. All Rights Reserved
+                    </p>
+                </div>
             </div>
         </div>
         </div>
     </section>
     <style>
-        .social-img {
+        .footerl .col-lg-12 p {
+            margin-top: 0px;
+        }
+
+        .footerl .col-lg-12 .llk {
+            margin-top: 10%;
+        }
+
+        .social-img1 {
             text-align: center;
         }
-        .footerl{
+
+        .footerl {
             width: 100%;
-    /* text-align: center; */
-    background: transparent linear-gradient(360deg, rgba(29, 29, 29, 0.5764705882) 0%, rgba(26, 26, 26, 0) 100%) 0% 0% no-repeat padding-box;
-    background-color: lightgreen;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust the shadow values as needed */
-}
+            /* text-align: center; */
+            background: transparent linear-gradient(360deg, rgba(29, 29, 29, 0.5764705882) 0%, rgba(26, 26, 26, 0) 100%) 0% 0% no-repeat padding-box;
+            background-color: lightgreen;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            /* Adjust the shadow values as needed */
+        }
     </style>
     </section>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
