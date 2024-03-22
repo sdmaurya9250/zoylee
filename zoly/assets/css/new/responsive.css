@@ -1,0 +1,2209 @@
+@media(min-width:1280px) {
+    *::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+        border-radius: 5px
+    }
+    *::-webkit-scrollbar-track {
+        background: #b9b9b9;
+        border-radius: 5px
+    }
+    *::-webkit-scrollbar-thumb {
+        background: #686666;
+        border-radius: 5px
+    }
+    *::-webkit-scrollbar-thumb:hover {
+        background: #555
+    }
+}
+
+@media(min-width:1366px) and (max-width:1450px) {
+    .banner .bannervideo {
+        height: 422.53px;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%
+    }
+    .banner .bannerContent .row .bannerText {
+        padding-top: 153px
+    }
+    .banner .bannerContent .row .bannerText h4 {
+        margin-top: 100px
+    }
+    .banner .bannerContent .row .bannerService {
+        padding-top: 75px;
+        width: 91%;
+        margin-left: auto
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Text {
+        padding: 50px 58px 50px 37px;
+        width: 63%
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Image {
+        width: 37%
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Image img {
+        width: 100%
+    }
+    .banner .bannerContent .row .bannerService .Find .row .Text h4 {
+        color: #fff
+    }
+}
+
+@media(max-width:1280px) {
+    .MyBookingSection .MyBookingView .MyBooking .BookedHistory .Single .row .Text h6 svg {
+        position: relative;
+        top: 1px;
+        max-height: 11px
+    }
+    .banner .bannerContent {
+        position: relative;
+        z-index: 2;
+        margin-bottom: 100px
+    }
+    .MyBookingSection .ProfileSection .Profile .UserContactDetails p a {
+        font-size: 16px
+    }
+    .MyBookingSection .ProfileSection .Profile .ProfileNavigation .NavLink ul li a {
+        font-size: 14px;
+        font-weight: 600
+    }
+    .MyBookingSection .ProfileSection .Profile .ProfileFooterLink p a {
+        font-size: 16px;
+        font-weight: 700
+    }
+    .MyBookingSection .ProfileSection .Profile .UserImage {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, .2431372549);
+        border: 1px solid #fff;
+        display: block;
+        margin: auto
+    }
+    .MyBookingSection .ProfileSection .Profile .ProfileFooterLink p a svg {
+        margin-right: 3px;
+        fill: #a7a7a7;
+        width: 29px;
+        height: 29px;
+        padding: 7px
+    }
+    .MyBookingSection .ProfileSection .Profile .Scroll {
+        height: calc(100vh - 370.3px);
+        overflow: auto
+    }
+    .MyBookingSection .ProfileSection .Profile .ProfileFooterLink {
+        margin-top: 10px
+    }
+    .banner .bannervideo {
+        height: 422.53px;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%
+    }
+    .banner .bannerContent .row .bannerText {
+        padding-top: 153px
+    }
+    .banner .bannerContent .row .bannerText h4 {
+        margin-top: 100px
+    }
+    .banner .bannerContent .row .bannerService {
+        padding-top: 75px;
+        width: 100%;
+        margin-left: auto
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Text {
+        padding: 50px 58px 50px 37px;
+        width: 66%;
+        max-height: 200px;
+        overflow: hidden
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Image {
+        width: 34%;
+        max-height: 200px;
+        overflow: hidden
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Image img {
+        width: 100%
+    }
+    .banner .bannerContent .row .bannerService .Find .row .Text h4 {
+        color: #fff
+    }
+    .zoyleeBusiness .Heading .row .Tab ul li {
+        margin-left: 7px
+    }
+    .whyChoose {
+        margin-top: 80px
+    }
+    .VendorDetails .VendorDetailsView .RightSide .Cartview .CartHeader h4 {
+        font-size: 16px
+    }
+    .VendorDetails .VendorDetailsView .RightSide .Cartview .CartHeader h4.active {
+        color: #000;
+        font-size: 20px;
+        font-weight: 900
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTab ul li a {
+        font-size: 18px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .RightSide .Cartview .CartHeight.homeAddress .AllItems .savedAddress .Single .form-check {
+        min-width: 92%
+    }
+}
+
+@media(max-width:1199px) {
+    .pac-container {
+        width: 85%;
+        z-index: 10000000000000000
+    }
+    * .container {
+        max-width: 100% !important
+    }
+    header .Logo {
+        padding: 0
+    }
+    header .ToogleButton {
+        display: flex;
+        width: calc(100% - 120.51px);
+        justify-content: right;
+        vertical-align: middle;
+        align-items: center;
+        padding: 0
+    }
+    header .ToogleButton button {
+        color: #fff
+    }
+    header .ToogleButton button.OpenSearch.Opened #SearchIcon {
+        display: none
+    }
+    header .ToogleButton button.OpenSearch.Opened #Close {
+        display: block
+    }
+    header .ToogleButton button.OpenSearch #SearchIcon {
+        display: block
+    }
+    header .ToogleButton button.OpenSearch #Close {
+        display: none
+    }
+    header .ToogleButton button.CloseSearch {
+        display: none
+    }
+    header .ToogleButton button:hover {
+        color: #fff
+    }
+    header .SearchLocation {
+        display: none;
+        position: fixed;
+        top: 81px;
+        right: 50%;
+        flex-wrap: wrap;
+        background-color: #fff;
+        border-radius: 10px;
+        width: calc(100% - 30px);
+        transform: translate(-50%, 0px);
+        transition: 5s;
+        transform-origin: top
+    }
+    header .SearchLocation.Open {
+        display: block;
+        transform: translate(0, 0);
+        right: auto;
+        left: auto;
+        transition: .5s;
+        display: flex
+    }
+    header .SearchLocation .Search {
+        order: 2;
+        width: 100%;
+        display: flex
+    }
+    header .SearchLocation .Search .SearchInput {
+        width: 100%;
+        border-bottom: 1px solid #000;
+        border-radius: 10px;
+        margin-top: 30px;
+        height: 100%;
+        padding: 0
+    }
+    header .SearchLocation .Search .SearchInput input#searchbar {
+        border-bottom: 1px solid #000;
+        padding-bottom: 10px;
+        height: 40px;
+        position: relative;
+        width: calc(100% - 26px);
+        left: 13px;
+        padding-left: 0
+    }
+    header .SearchLocation .Search .SearchInput .SearchResult {
+        position: relative;
+        transform: scaleY(1);
+        height: 100%
+    }
+    header .SearchLocation .Search .SearchInput .SearchResult .SelectServiceVanue {
+        margin-top: 10px
+    }
+    header .SearchLocation .Search .SearchInput .SearchResult .Keywords {
+        padding: 23px 15px
+    }
+    header .SearchLocation .location {
+        order: 1;
+        width: 100%;
+        margin-top: 20px
+    }
+    header .SearchLocation .location p {
+        width: calc(100% - 12px);
+        color: #000;
+        text-decoration: none;
+        padding-bottom: 2px;
+        border-bottom: 2px solid #000
+    }
+    header .SearchLocation .location .CloseSearch {
+        display: block;
+        margin-left: auto;
+        position: absolute;
+        left: initial;
+        right: -2px;
+        top: -78px;
+        background: #000;
+        width: 50px;
+        color: #fff
+    }
+    header .SearchLocation .location:hover {
+        transform: none;
+        left: 0
+    }
+    header .SearchLocation .location .location-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        flex-wrap: wrap;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px 33px;
+        padding: 20px;
+        width: 100%;
+        transform: none;
+        transition: 0s;
+        transform-origin: top;
+        opacity: 1;
+        visibility: visible;
+        right: 0;
+        height: 612px;
+        z-index: 99
+    }
+    header .SearchLocation .location .location-menu.Open {
+        display: block;
+        transform: none;
+        left: 0
+    }
+    header .SearchLocation .location .location-menu::after {
+        display: none
+    }
+    header .SearchLocation .location .location-menu .LocationInputs {
+        display: flex;
+        flex-wrap: wrap
+    }
+    header .SearchLocation .location .location-menu .LocationInputs input {
+        order: 2;
+        width: 100%
+    }
+    header .SearchLocation .location .location-menu .LocationInputs button {
+        order: 1
+    }
+    header .SearchLocation .location .location-menu .LocationInputs .Buttons {
+        display: block;
+        margin-bottom: 30px
+    }
+    header .SearchLocation .location .location-menu .LocationInputs .Buttons button {
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
+        width: -moz-max-content;
+        width: max-content;
+        float: left;
+        margin-right: 10px;
+        margin-top: 0 !important
+    }
+    header .SearchLocation .location .location-menu .LocationInputs .Buttons button:first-child {
+        background: 0 0;
+        padding-left: 0
+    }
+    header .SearchLocation .location .location-menu .LocationInputs .Buttons button:last-child {
+        min-width: 113px;
+        min-height: 36px
+    }
+    header .SearchLocation .location .location-menu .location-results {
+        padding: 0
+    }
+    header .NavLink {
+        position: fixed;
+        top: 0;
+        right: 0%;
+        flex-wrap: wrap;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 0;
+        width: 0%;
+        height: 100%;
+        padding-top: 35px;
+        border-radius: 10px 0 0 10px;
+        transition: .5s;
+        overflow: hidden
+    }
+    header .NavLink.Open {
+        width: 80%
+    }
+    header .NavLink .ForPhone {
+        margin-bottom: 80px;
+        display: block;
+        padding: 0 20px
+    }
+    header .NavLink .ForPhone .row {
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%
+    }
+    header .NavLink .ForPhone .row .DownloadApp {
+        width: calc(100% - 204px)
+    }
+    header .NavLink .ForPhone .row .DownloadApp p {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        font-size: 21px
+    }
+    header .NavLink .ForPhone .row .DownloadApp p svg {
+        margin-right: 5px
+    }
+    header .NavLink .ForPhone .row .Contactus {
+        width: 154px;
+        padding: 0
+    }
+    header .NavLink .ForPhone .row .Contactus button {
+        height: 54px;
+        width: 56px;
+        background-color: #363636;
+        color: #fff;
+        border-radius: 60px;
+        min-width: 100%;
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center
+    }
+    header .NavLink .ForPhone .row .Contactus button svg {
+        display: none
+    }
+    header .NavLink .ForPhone .row .CloseNav {
+        width: 50px
+    }
+    header .NavLink .ForPhone .row .CloseNav button {
+        background-color: transparent;
+        color: #363636;
+        border-radius: 60px;
+        min-width: 100%;
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: right;
+        text-align: right;
+        padding-right: 0;
+        margin-left: 0
+    }
+    header .NavLink ul {
+        flex-wrap: wrap
+    }
+    header .NavLink ul li {
+        margin-left: 0;
+        width: 100%;
+        border-bottom: 1px solid #d3d3d3;
+        margin-bottom: 26px;
+        padding-bottom: 18.5px
+    }
+    header .NavLink ul li::before {
+        display: none
+    }
+    header .NavLink ul li:hover a {
+        color: #000
+    }
+    header .NavLink ul li:first-child {
+        order: 2
+    }
+    header .NavLink ul li:nth-child(2) {
+        order: 4
+    }
+    header .NavLink ul li:nth-child(3) {
+        order: 3
+    }
+    header .NavLink ul li:last-child {
+        order: 1;
+        display: none
+    }
+    header .NavLink ul li.CartDropdownButton {
+        margin: 0;
+        border-bottom: none
+    }
+    header .NavLink ul li.CartDropdownButton a.Cart {
+        opacity: 0;
+        height: 0
+    }
+    header .NavLink ul li.CartDropdownButton:hover .Dropdown {
+        transform: none
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown {
+        position: initial;
+        transform: none;
+        width: 100%;
+        padding: 0;
+        display: block
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown::after {
+        display: none
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown.Dark .SelectServiceVanue li:first-child {
+        color: #fff
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown.Dark .SelectServiceVanue li span {
+        background-color: transparent
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue {
+        padding: 20px;
+        border-radius: 0;
+        padding-left: 40px
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue ul li {
+        display: block !important;
+        border-bottom: none;
+        font-size: 23px;
+        width: -moz-max-content;
+        width: max-content;
+        margin-left: 15px
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue ul li:first-child {
+        width: 110px;
+        margin-left: 0;
+        color: #000;
+        font-size: 40px;
+        order: 1;
+        display: flex;
+        line-height: 46px
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue ul li:nth-child(2) {
+        order: 2
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue ul li:last-child {
+        order: 3
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue ul li span {
+        background-color: transparent !important
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues {
+        padding-left: 40px;
+        padding-right: 20px
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues .Single .row .Text h5 {
+        font-size: 17px;
+        line-height: 23px
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues .Single .row .Text p {
+        font-size: 16px
+    }
+    header .NavLink ul li a {
+        color: #000;
+        padding-left: 40px;
+        font-size: 40px;
+        line-height: 46px
+    }
+    header .NavLink ul li a.Contact {
+        padding-left: 40px
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Image {
+        width: 36%;
+        max-height: 200px;
+        overflow: hidden
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Text {
+        width: 64%;
+        max-height: 200px;
+        overflow: hidden
+    }
+    .banner .bannerContent .row .bannerService {
+        padding-top: 129px
+    }
+    .banner .bannervideo {
+        height: 463.53px
+    }
+    .banner .bannerContent .row .bannerText {
+        padding-top: 190px
+    }
+    .Pagination {
+        height: initial
+    }
+    .Pagination .PaginationLink ul {
+        position: relative
+    }
+    .VendorDetailsSlider {
+        height: initial;
+        max-height: initial
+    }
+    .VendorDetailsSlider .Center {
+        position: relative
+    }
+    .VendorDetailsSlider .Slider .VendorShopDetails {
+        padding: 20px
+    }
+    .VendorDetailsSlider .Slider .VendorShopDetails .ShopName {
+        margin-top: 40px
+    }
+    .VendorDetails {
+        margin: 20px 0
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .VendorReviews .RatingandNewReviews .AddReview button {
+        display: block;
+        margin-left: auto
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .VendorReviews .RatingandNewReviews .AddReview .NewReview {
+        left: initial;
+        right: 0;
+        transform-origin: top right
+    }
+}
+
+@media(max-width:1024px) {
+    .banner .bannerContent .row .bannerService .Single .row .Text {
+        padding: 50px 40px 50px 37px;
+        width: 60%
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Image {
+        width: 40%
+    }
+    .banner .bannervideo {
+        height: 514.53px
+    }
+    .banner .bannerContent .row .bannerService {
+        padding-top: 186px
+    }
+    .banner .bannerContent .row .bannerText {
+        padding-top: 234px
+    }
+}
+
+@media(max-width:991px) {
+    .packageListing {
+        z-index: 999
+    }
+    .packageListing.PopupOpen .RightSide {
+        position: fixed
+    }
+    .packageListing .RightSide {
+        margin-top: 40px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 555;
+        height: auto !important
+    }
+    .packageListing .RightSide.height-0 {
+        height: 0 !important
+    }
+    .packageListing .RightSide .CartForSmallDevice {
+        margin-top: 40px;
+        position: fixed;
+        bottom: 0;
+        height: 82px;
+        left: 0;
+        width: 100%;
+        display: none;
+        z-index: 999
+    }
+    .packageListing .RightSide .CartForSmallDevice .Total {
+        border-radius: 9px 9px 0 0;
+        opacity: 1;
+        position: sticky;
+        bottom: 0;
+        top: auto;
+        background-color: #fff;
+        padding: 12px;
+        margin-bottom: -4px;
+        transform: translate(0, 1px);
+        width: 100%
+    }
+    .packageListing .RightSide .CartForSmallDevice .Total .row {
+        display: flex;
+        vertical-align: middle;
+        align-items: center
+    }
+    .packageListing .RightSide .CartForSmallDevice .Total p {
+        color: #6e6e6e;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0;
+        margin: 0
+    }
+    .packageListing .RightSide .CartForSmallDevice .Total h4 {
+        font-size: 25px;
+        line-height: 34px;
+        font-weight: 700
+    }
+    .packageListing .RightSide .CartForSmallDevice .Total button {
+        background: #000 0% 0% no-repeat padding-box;
+        border: 1px solid #fff;
+        border-radius: 30px;
+        opacity: 1;
+        color: #fff;
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 300;
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center
+    }
+    .packageListing .RightSide .Cartview {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        display: none;
+        overflow: visible !important;
+        height: calc(100vh - 148px) !important
+    }
+    .packageListing .RightSide .Cartview .CloseForPhone {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 9999;
+        display: block !important
+    }
+    .packageListing .RightSide .Cartview .CloseForPhone button {
+        background-color: #363636;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        border: 3px solid #f0f0f0
+    }
+    .packageListing .RightSide .Cartview .CloseForPhone button svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+    .MyBookingSection .MyBookingView .MyBooking .TabView .tab-content .tab-pane .col-lg-6.col-md-12.h-100 {
+        max-width: 50%;
+        width: 50%
+    }
+    .MyBookingSection {
+        height: calc(100vh - 73px)
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 {
+        width: 70px;
+        max-width: 70px;
+        padding-right: 0
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection {
+        border-top-right-radius: 0
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection .Profile {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection .Profile .UserImage {
+        width: 51px;
+        height: 51px
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection .Profile .UserName {
+        display: none
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection .Profile .UserContactDetails {
+        display: none
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection .Profile .ProfileNavigation {
+        margin-top: 60px
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection .Profile .ProfileNavigation .NavLink ul li a span {
+        display: none
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection .Profile .ProfileNavigation .NavLink ul li a span.Badge {
+        display: none
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection .Profile .ProfileFooterLink {
+        border: none;
+        position: absolute;
+        bottom: 50px;
+        width: 100%
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection .Profile .ProfileFooterLink .col-6 {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        padding-left: 0
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection .Profile .ProfileFooterLink::before {
+        display: none
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection .Profile .ProfileFooterLink p {
+        text-align: center
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection .Profile .ProfileFooterLink p a svg {
+        margin-right: 0
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100 .ProfileSection .Profile .ProfileFooterLink p a span {
+        display: none
+    }
+    .MyBookingSection.ForPhone .col-lg-8.col-md-7.h-100 {
+        max-width: calc(100% - 70px);
+        width: calc(100% - 70px)
+    }
+    .MyBookingSection .MyBookingView {
+        overflow: auto
+    }
+    .MyBookingSection .MyBookingView .MyBooking #BookedHistoryAtSalon .BookingDetails .IDStatus .BackButton {
+        display: block
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookedHistory {
+        overflow: visible
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookedHistory .Single .row .OrderID p {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookedHistory .Single .row .OrderID p svg {
+        max-height: 10px !important
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookedHistory .Single .row .Status h6 {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookedHistory .Single .row .Text h5 {
+        font-size: 12px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookedHistory .Single .row .Text h6 {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookedHistory .Single .row .Text p {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookedHistory .Single .row .Text p span:first-child {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookingDetails {
+        border-top-left-radius: 0
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookingDetails .IDStatus .BackButton {
+        display: block
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookingDetails .IDStatus .BackButton button {
+        padding: 0;
+        padding-right: 10px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookingDetails .IDStatus .OrderID p {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookingDetails .IDStatus .Status h6 {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookingDetails .TimeLoction ul li {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookingDetails .TimeLoction ul li:last-child {
+        font-size: 10px;
+        margin-top: 0
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookingDetails .Services h6 {
+        font-size: 12px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookingDetails .Services .Single p {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookingDetails .Services .SavedAmount p {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .ZoyleePoint {
+        height: initial !important
+    }
+    .MyBookingSection .MyBookingView .ZoyleePoint .AvailableHistory .AvilablePoint h6 {
+        font-size: 12px
+    }
+    .MyBookingSection .MyBookingView .ZoyleePoint .AvailableHistory .History .Tab {
+        justify-content: space-between
+    }
+    .MyBookingSection .MyBookingView .ZoyleePoint .AvailableHistory .History .Tab button {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .ZoyleePoint .AvailableHistory .History .HistoryView .Single .ReferalNameDate h5 {
+        font-size: 12px
+    }
+    .MyBookingSection .MyBookingView .ZoyleePoint .AvailableHistory .History .HistoryView .Single .ReferalNameDate p {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .ZoyleePoint .AvailableHistory .History .HistoryView .Single .PointStatus h5 {
+        font-size: 18px;
+        line-height: 22px
+    }
+    .MyBookingSection .MyBookingView .ZoyleePoint .AvailableHistory .History .HistoryView .Single .PointStatus p {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .ZoyleePoint .FAQ {
+        margin-top: 40px
+    }
+    .MyBookingSection .MyBookingView .ZoyleePoint .FAQ #ZoyleePointFAQ .card .card-header a {
+        font-size: 12px
+    }
+    .MyBookingSection .MyBookingView .ZoyleePoint .FAQ #ZoyleePointFAQ .card .card-body p {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .ZoyleePoint .FAQ #ZoyleePointFAQ .card .card-body ul li {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .ZoyleePoint .FAQ #ZoyleePointFAQ .card .card-body h6 {
+        font-size: 12px
+    }
+    .MyBookingSection .MyBookingView .ReferAndEarn .ReferSection {
+        margin-bottom: 30px
+    }
+    .MyBookingSection .MyBookingView .ReferAndEarn .ReferSection h5 {
+        font-size: 16px
+    }
+    .MyBookingSection .MyBookingView .ReferAndEarn .ReferSection h6 {
+        font-size: 14px
+    }
+    .MyBookingSection .MyBookingView .ReferAndEarn .ReferSection .Para p {
+        font-size: 12px !important
+    }
+    .MyBookingSection .MyBookingView .ReferAndEarn .ReferSection .ReferCode p {
+        font-size: 10px
+    }
+    .MyBookingSection .MyBookingView .ReferAndEarn .ReferSection .ReferCode .input-group input {
+        font-size: 12px
+    }
+    .MyBookingSection .MyBookingView .ReferAndEarn .HowItsWorks {
+        display: block;
+        margin: auto;
+        text-align: center;
+        max-width: 100%
+    }
+    .MyBookingSection .MyBookingView .ReferAndEarn .HowItsWorks img {
+        display: block;
+        margin: auto;
+        max-width: 150px
+    }
+    .MyBookingSection .MyBookingView .ReferAndEarn .HowItsWorks h4 {
+        font-size: 14px
+    }
+    .MyBookingSection .MyBookingView .ReferAndEarn .HowItsWorks p {
+        font-size: 10px
+    }
+    .RightSide {
+        margin-top: 40px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 555;
+        height: auto !important
+    }
+    .RightSide.height-0 {
+        height: 0 !important
+    }
+    .RightSide .CartForSmallDevice {
+        margin-top: 40px;
+        position: fixed;
+        bottom: 0;
+        height: 82px;
+        left: 0;
+        width: 100%;
+        display: none;
+        z-index: 999
+    }
+    .RightSide .CartForSmallDevice .Total {
+        border-radius: 9px 9px 0 0;
+        opacity: 1;
+        position: sticky;
+        bottom: 0;
+        top: auto;
+        background-color: #fff;
+        padding: 20px 12px;
+        margin-bottom: -4px;
+        transform: translate(0, 1px);
+        width: 100%
+    }
+    .RightSide .CartForSmallDevice .Total .row {
+        display: flex;
+        vertical-align: middle;
+        align-items: center
+    }
+    .RightSide .CartForSmallDevice .Total p {
+        color: #6e6e6e;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0;
+        margin: 0
+    }
+    .RightSide .CartForSmallDevice .Total h4 {
+        font-size: 25px;
+        line-height: 34px;
+        font-weight: 700
+    }
+    .RightSide .CartForSmallDevice .Total button {
+        background: #000 0% 0% no-repeat padding-box;
+        border: 1px solid #fff;
+        border-radius: 22px;
+        opacity: 1;
+        color: #fff;
+        width: 100%;
+        height: 43px;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 300;
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center
+    }
+    .RightSide .Cartview {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        display: none;
+        overflow: visible !important;
+        height: calc(100vh - 148px) !important
+    }
+    .RightSide .Cartview .CloseForPhone {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 9999;
+        display: block !important
+    }
+    .RightSide .Cartview .CloseForPhone button {
+        background-color: #363636;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        border: 3px solid #f0f0f0
+    }
+    .RightSide .Cartview .CloseForPhone button svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+    .RightSide .Cartview .CartHeader {
+        border-radius: 9px 9px 0 0
+    }
+    .VendorDetails .VendorDetailsView .RightSide {
+        margin-top: 40px;
+        position: fixed;
+        bottom: 0;
+        top: initial;
+        left: 0;
+        width: 100%;
+        z-index: 555;
+        height: auto !important
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .TabSearch .col-md-7 {
+        order: 2;
+        margin-top: 11px;
+        display: flex;
+        position: relative
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .TabSearch .MenuTab {
+        width: 100%
+    }
+}
+
+@media(max-width:912px) {
+    .banner .bannerContent .row .bannerService .Single .row .Text {
+        padding: 30px 20px;
+        width: 63.5%
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Text h4 {
+        font-size: 23px
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Image {
+        width: 36.5%
+    }
+    .banner .bannerContent .row .bannerText h1 span {
+        font-size: 38px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookedHistoryHide {
+        display: block
+    }
+}
+
+@media(max-width:820px) {
+    .ListingMain .col-md-9 .listing .listingHeading .row .listingTab ul li:first-child {
+        display: block
+    }
+    .ListingMain .col-md-9 .listing .listingHeading .row #choosePackage p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 6px
+    }
+    .listingTopSlider {
+        height: 154px
+    }
+    .ListingMain .col-md-9 .listing .listingHeading .row .listingTab {
+        width: 69%;
+        padding-right: 0
+    }
+    .ListingMain .col-md-9 .listing .listingHeading .row #choosePackage {
+        width: 31%
+    }
+    .ListingMain .col-md-9 .listing .listingHeading .row .listingTab ul li {
+        padding: 6px 0;
+        margin-right: 35px
+    }
+    .ListingMain .col-md-9 .listing .listingHeading .row .listingTab ul li a {
+        font-size: 18px
+    }
+    .ListingMain {
+        margin-top: 0
+    }
+    .ListingMain .col-md-3 {
+        position: fixed;
+        width: 0%;
+        z-index: 99;
+        bottom: 0;
+        left: 0;
+        height: calc(100vh - 85px);
+        padding: 0;
+        overflow: hidden;
+        transition: .3s
+    }
+    .ListingMain .col-md-3.open {
+        width: 100%;
+        max-width: 100%;
+        transition: .3s
+    }
+    .ListingMain .col-md-9 {
+        width: 100%;
+        max-width: 100%
+    }
+    .banner .bannerContent .row .col-md-6 {
+        width: 100%;
+        max-width: 100%
+    }
+    .banner .bannervideo {
+        height: 533.53px
+    }
+    .banner .bannerContent .row .bannerService {
+        padding-top: 46px
+    }
+    .banner .bannerContent .row .bannerService .Single {
+        padding: 0;
+        box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+        background: #fff;
+        border-radius: 10px;
+        min-height: 249px
+    }
+    .banner .bannerContent .row .bannerService .Single.Find {
+        background-color: #000
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Text {
+        padding: 50px;
+        width: 63.5%
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Image {
+        border-radius: 0 10px 10px 0;
+        max-height: 100%;
+        height: 100%
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Image img {
+        position: relative;
+        right: -1px
+    }
+    .banner .bannerContent .row .bannerService .Find .Buttons button {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        height: 62px
+    }
+    .banner .bannerContent .row .bannerText h1 {
+        border-radius: 10px;
+        text-align: center;
+        margin-bottom: 40px
+    }
+    .banner .bannerContent .row .bannerText ul {
+        margin: 40px -15px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 10px;
+        overflow: hidden
+    }
+    .banner .bannerContent .row .bannerText ul li {
+        margin-right: 57px;
+        margin-bottom: 10px;
+        white-space: nowrap
+    }
+    .banner .bannerContent .row .bannerText ul li:last-child {
+        margin-right: 0
+    }
+    .banner .bannerContent .row .bannerText h4 {
+        display: none
+    }
+    .banner .bannerContent .row .bannerService .HomeBased:hover {
+        transform: scale(1.01)
+    }
+    .banner .bannerContent .row .bannerService .Find .Buttons {
+        left: 0;
+        position: absolute;
+        transform: none;
+        opacity: 1
+    }
+    .banner .bannerContent .row .bannerService .Find .Buttons button {
+        padding-top: 5px;
+        padding-bottom: 5px
+    }
+    .Filter {
+        width: 100%;
+        overflow: auto
+    }
+    footer .footerLink {
+        margin-bottom: 95px;
+        width: 100%
+    }
+    footer .newsLetter {
+        max-width: 50%
+    }
+    footer .downloadSocial {
+        max-width: 50%;
+        float: left;
+        margin: 0;
+        padding-top: 33px;
+        padding-left: 24px
+    }
+    .whyChoose .row .Review {
+        padding: 132px 80px 30px 18px
+    }
+    .whyChoose .row .Review .reviewStatic .row .Outoff {
+        width: 50%
+    }
+}
+
+@media(max-width:767px) {
+    .ListingMain .col-md-9 .listing .listingHeading .row .listingTab.serviceListingTab ul li a {
+        cursor: pointer
+    }
+    .MyBookingSection .ProfileSection .Profile .UserImage img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        border-radius: 50%;
+        padding: 2px
+    }
+    .packageListing .packageCart .packageMenu .single .packageList .singlePackage .description {
+        width: 100%;
+        max-width: 100%
+    }
+    .packageListing .packageCart .packageMenu .single .packageList .singlePackage .price h6 {
+        margin-top: 11px
+    }
+    .packageListing .packageCart .packageMenu .single .packageList .singlePackage .time p {
+        margin-top: 23px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookedHistory {
+        padding-top: 72px
+    }
+    .MyBookingSection .MyBookingView .MyBooking .Tab {
+        width: 100%
+    }
+    .MyBookingSection .ProfileSection .Profile .Scroll {
+        overflow: hidden
+    }
+    .MyBookingSection .MyBookingView .MyBooking .BookingDetails {
+        height: calc(100vh - 150px)
+    }
+    .MyBookingSection.ForPhone .col-lg-8.col-md-7.h-100.MyBookingViewActive {
+        max-width: 100%;
+        width: 100%
+    }
+    .MyBookingSection {
+        height: 100%
+    }
+    .MyBookingSection .MyBookingViewInActive {
+        margin-left: auto
+    }
+    .MyBookingSection.ForPhone .col-lg-4.col-md-5.h-100.ProfileSectionHide {
+        transform: translate(-100%, 0);
+        transition: .3s;
+        position: fixed;
+        overflow: hidden
+    }
+    .MyBookingSection .ProfileSectionShow {
+        transform: translate(0%, 0);
+        transition: .3s;
+        overflow: hidden;
+        position: fixed;
+        left: 0;
+        z-index: 999
+    }
+    .MyBookingSection .MyBookingView .MyBooking .TabView .tab-content .tab-pane .col-lg-6.col-md-12.h-100 {
+        width: 100%;
+        max-width: 100%
+    }
+    .MyBookingSection .MyBookingView .MyBooking .TabView .tab-content .tab-pane .col-lg-6.col-md-12.h-100.BookedHistoryHide {
+        transform: translate(-100%, 0);
+        transition: .5s;
+        margin-left: auto;
+        display: block
+    }
+    .MyBookingSection .MyBookingView .MyBooking .TabView .tab-content .tab-pane .col-lg-6.col-md-12.h-100.BookedHistoryShow {
+        transform: translate(0%, 0);
+        transition: .5s;
+        margin-left: auto;
+        display: block;
+        background-color: #363636
+    }
+    .MyBookingSection .MyBookingView .MyBooking .TabView .tab-content .tab-pane .col-lg-6.col-md-12.h-100.BookingDetailsHide {
+        transform: translate(100%, 0);
+        transition: .5s;
+        margin-left: auto;
+        display: block;
+        position: fixed
+    }
+    .MyBookingSection .MyBookingView .MyBooking .TabView .tab-content .tab-pane .col-lg-6.col-md-12.h-100.BookingDetailsShow {
+        transform: translate(0%, 0);
+        transition: .5s;
+        margin-left: auto;
+        display: block;
+        position: fixed
+    }
+}
+
+@media(max-width:576px) {
+    .ListingMain .col-md-9 .listing .servicePopup .serviceTable ul li {
+        width: 33.3333333333%
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row .ServiceName h4 {
+        font-size: 14px;
+        line-height: 15px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .collapse {
+        font-size: 14px
+    }
+    .ListingMain .col-md-9 .listing #choosePackagePopup .genderWiseSingle .single {
+        margin-bottom: 40px
+    }
+    .ListingMain .col-md-9 .listing #choosePackagePopup #closePackage {
+        display: block
+    }
+    .ListingMain .col-md-9 .listing #choosePackagePopup {
+        opacity: 0;
+        position: fixed;
+        bottom: 0;
+        z-index: 99;
+        height: calc(100vh - 72px);
+        top: 72px;
+        overflow: auto
+    }
+    .ListingMain .col-md-9 .listing #choosePackagePopup.show {
+        opacity: 1;
+        padding: 0
+    }
+    .ListingMain .col-md-9 .listing #choosePackagePopup.hide {
+        opacity: 0
+    }
+    .ListingMain .col-md-3 {
+        height: calc(100vh - 72px);
+        top: 72px
+    }
+    .ListingMain .col-md-3 .Preferences {
+        height: 100%;
+        padding: 20px 15px
+    }
+    .ListingMain .col-md-9 .listing .listingHeading .row .listingTab ul li:first-child {
+        background-color: #1d1d1d
+    }
+    .ListingMain .col-md-9 .listing .listingHeading .row #choosePackage {
+        width: 39%
+    }
+    .ListingMain .col-md-9 .listing .listingHeading .row .listingTab {
+        width: 100%;
+        padding-right: 0
+    }
+    .ListingMain .col-md-9 .listing .listingHeading .row #choosePackage {
+        position: absolute;
+        right: 10px;
+        width: -moz-max-content;
+        width: max-content;
+        top: 10px
+    }
+    .ListingMain .col-md-9 .listing .listingHeading .row .listingTab.serviceListingTab ul li:first-child {
+        position: absolute;
+        right: 0;
+        width: calc(100% - 24px);
+        top: -43px
+    }
+    .ListingMain .col-md-9 .listing .listingHeading .row .listingTab ul li:first-child {
+        position: absolute;
+        right: 0;
+        width: calc(100% - 3px);
+        top: -18px
+    }
+    .ListingMain .col-md-9 .listing .listingHeading .row .listingTab ul li {
+        margin-top: 30px
+    }
+    .ListingMain .col-md-9 .listing .listingHeading .row .listingTab ul li {
+        padding: 6px 0;
+        margin-right: 47px
+    }
+    .ListingMain .col-md-9 .listing .listingHeading {
+        padding-bottom: 16px;
+        top: 72px
+    }
+    header .SearchLocation .location .CloseSearch {
+        left: initial;
+        right: 52px;
+        top: -86px;
+        background: #000;
+        width: 50px;
+        color: #fff
+    }
+    .pac-container {
+        width: 85% !important;
+        z-index: 10000000000000000
+    }
+    .download-icon {
+        width: 112px;
+        margin-bottom: 8px
+    }
+    a.btn.site-btn.partner-footer.font-16.text-black.mt-3.bg-white {
+        width: 100%
+    }
+    .footer .container {
+        display: flex;
+        flex-wrap: wrap
+    }
+    .footer .mob-center:nth-child(2) .col-lg-4.col-md-6.col-12 {
+        width: 50%;
+        max-width: 50%
+    }
+    .footer .mob-center .col-lg-4.col-md-6.col-12 {
+        width: 50%;
+        max-width: 50%
+    }
+    .footer .mob-center .col-lg-4.col-md-6.col-12 p {
+        text-align: left
+    }
+    .footer .mob-center p.download-img.pt-4 {
+        padding-top: 38px !important
+    }
+    .zoyleeBusiness .Heading .row .Tab ul {
+        width: 100%
+    }
+    .zoyleeBusiness .Heading .row .Tab ul li {
+        width: 45%;
+        text-align: center
+    }
+    .MyBookingSection .MyBookingView .MyBooking .TabView .tab-content .tab-pane .col-lg-6.col-md-12.h-100 {
+        max-width: 100%;
+        width: 100%
+    }
+    .banner .bannerContent .row .bannerService .Find .Buttons button {
+        font-size: 15px
+    }
+    .MyBookingSection .ProfileSection .Profile .UserImage img {
+        padding: 1px
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Text h4 {
+        font-size: 20px
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Image img {
+        -o-object-fit: cover;
+        object-fit: cover
+    }
+    #homeBasedModal .modal-dialog {
+        padding: 0
+    }
+    #homeBasedModal .modal-dialog .modal-content .PopUp .Services .row .col-md-3 {
+        padding-left: 12px;
+        padding-right: 12px;
+        max-width: 50%;
+        width: 50%;
+        margin-bottom: 20px
+    }
+    .banner .bannerContent .row .bannerText h1 span {
+        font-size: 32px
+    }
+    .banner .bannerContent .row .bannerText h1 {
+        font-size: 28px
+    }
+    .banner .bannerContent .row .bannerText ul li {
+        margin: 12px 20px
+    }
+    .banner .bannerContent .row .bannerService {
+        padding-top: 0
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Text {
+        padding: 20px
+    }
+    .banner .bannerContent .row .bannerService .Single {
+        min-height: 180px
+    }
+    .banner .bannerContent .row .bannerService .Single .row .Image img {
+        min-height: 180px
+    }
+    .zoyleeBusiness .Heading .row .Title {
+        width: 100%
+    }
+    .zoyleeBusiness .Heading .row .Tab {
+        width: 100%;
+        margin-top: 20px
+    }
+    .zoyleeBusiness .background {
+        padding: 45px 17px
+    }
+    .zoyleeBusiness .TabView .getRegistered .col-sm-7 {
+        order: 1
+    }
+    .zoyleeBusiness .TabView .getRegistered .col-sm-5 {
+        order: 2
+    }
+    .zoyleeBusiness .TabView .getRegistered .image {
+        background-position: right;
+        min-height: 200px
+    }
+    .whyChoose .row .Review {
+        padding: 132px 40px 30px 18px;
+        width: 94%;
+        display: block;
+        margin: auto
+    }
+    .whyChoose .row .whyChooseBox {
+        width: 100%;
+        max-width: 100%;
+        padding: 24px
+    }
+    footer .footerLink ul li {
+        width: 50%;
+        position: relative;
+        padding-right: 24px
+    }
+    footer .footerLink ul li:nth-child(even) {
+        padding-right: 0
+    }
+    footer .footerLink ul li a {
+        font-size: 16px
+    }
+    footer .newsLetter,
+    footer .downloadSocial {
+        max-width: 100%;
+        padding-left: 0;
+        width: 100%
+    }
+    footer .reserved p {
+        margin: 0;
+        color: #fff
+    }
+    header {
+        padding: 15px 0 !important
+    }
+    header .ToogleButton button {
+        padding: 0
+    }
+    header .ToogleButton button.OpenSearch {
+        margin-right: 10px
+    }
+    header .NavLink .ForPhone {
+        padding: 0 10px;
+        margin-bottom: 37px
+    }
+    header .NavLink .ForPhone .row .DownloadApp {
+        width: calc(100% - 106px - 23px)
+    }
+    header .NavLink .ForPhone .row .DownloadApp p {
+        font-size: 14px
+    }
+    header .NavLink .ForPhone .row .DownloadApp p svg {
+        max-height: 24px
+    }
+    header .NavLink .ForPhone .row .Contactus {
+        width: 56px
+    }
+    header .NavLink .ForPhone .row .Contactus button {
+        height: 36px
+    }
+    header .NavLink .ForPhone .row .Contactus button svg {
+        display: block
+    }
+    header .NavLink .ForPhone .row .Contactus button span {
+        display: none
+    }
+    header .NavLink .ForPhone .row .CloseNav {
+        padding: 0;
+        margin-left: 10px;
+        width: 25px
+    }
+    header .NavLink .ForPhone .row .CloseNav button {
+        padding: 0;
+        width: 100%;
+        display: block;
+        text-align: center
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue {
+        padding-left: 10px
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue::before {
+        left: 59.666667%;
+        display: none
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue ul li {
+        font-size: 14px
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue ul li:first-child {
+        font-size: 14px;
+        width: -moz-max-content;
+        width: max-content
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue ul li:last-child {
+        position: relative
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue ul li:last-child ::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        width: 1px;
+        height: 26px;
+        transform: translate(0%, -50%);
+        background-color: #c4c4c4
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues .Single .row .Text h5 {
+        font-size: 12px;
+        line-height: 23px
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues .Single .row .Text h6 {
+        font-size: 10px !important
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues .Single .row .Text p {
+        font-size: 10px !important
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues .Single .row .Text p span {
+        font-size: 10px !important
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues .Single .row .Text p span:last-child {
+        font-size: 10px
+    }
+    header .NavLink ul li a {
+        font-size: 14px;
+        padding-left: 10px
+    }
+    header .SearchLocation .location .Buttons {
+        position: absolute;
+        left: 12px;
+        bottom: -42px
+    }
+    header .SearchLocation .location .Buttons button.btn.CloseLocation {
+        position: absolute;
+        top: -104px;
+        right: -11px
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .tab-content {
+        overflow: hidden;
+        max-height: calc(100vh - 291px)
+    }
+    header .NavLink ul li {
+        margin-bottom: 10px;
+        padding-bottom: 7.5px
+    }
+    header .NavLink .ForPhone .row .DownloadApp {
+        width: calc(100% - 91px)
+    }
+    header .NavLink ul li.CartDropdownButton {
+        margin-top: -10px
+    }
+    header {
+        padding: 15px 0 !important
+    }
+    header .ToogleButton button {
+        padding: 0
+    }
+    header .ToogleButton button.OpenSearch {
+        margin-right: 10px
+    }
+    header .NavLink .ForPhone {
+        padding: 0 10px;
+        margin-bottom: 37px
+    }
+    header .NavLink .ForPhone .row .DownloadApp {
+        width: calc(100% - 106px - 23px)
+    }
+    header .NavLink .ForPhone .row .DownloadApp p {
+        font-size: 14px
+    }
+    header .NavLink .ForPhone .row .DownloadApp p svg {
+        max-height: 24px
+    }
+    header .NavLink .ForPhone .row .Contactus {
+        width: 56px
+    }
+    header .NavLink .ForPhone .row .Contactus button {
+        height: 36px
+    }
+    header .NavLink .ForPhone .row .Contactus button svg {
+        display: block
+    }
+    header .NavLink .ForPhone .row .Contactus button span {
+        display: none
+    }
+    header .NavLink .ForPhone .row .CloseNav {
+        padding: 0;
+        margin-left: 23px
+    }
+    header .NavLink .ForPhone .row .CloseNav button {
+        padding: 0;
+        width: 100%;
+        display: block;
+        text-align: center
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue::before {
+        left: 59.666667%
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .SelectServiceVanue ul li {
+        font-size: 14px
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues .Single .row .Text h5 {
+        font-size: 12px;
+        line-height: 23px
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues .Single .row .Text h6 {
+        font-size: 10px !important
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues .Single .row .Text p {
+        font-size: 10px !important
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues .Single .row .Text p span {
+        font-size: 10px !important
+    }
+    header .NavLink ul li.CartDropdownButton .Dropdown .Venues .Single .row .Text p span:last-child {
+        font-size: 10px
+    }
+    header .NavLink ul li a {
+        font-size: 14px
+    }
+    .Pagination {
+        margin-top: 15px
+    }
+    .Pagination .PaginationLink ul li a {
+        font-size: 12px
+    }
+    .VendorDetailsSlider {
+        max-height: initial;
+        margin-bottom: 12px
+    }
+    .VendorDetailsSlider .Slider .ImageSlider .carousel .carousel-inner .carousel-item {
+        height: 245px
+    }
+    .VendorDetailsSlider .Slider .VendorShopDetails {
+        padding: 0
+    }
+    .VendorDetailsSlider .Slider .VendorShopDetails .ShopName {
+        margin-top: 4px
+    }
+    .VendorDetailsSlider .Slider .VendorShopDetails .ShopName h1 {
+        font-size: 22px
+    }
+    .VendorDetailsSlider .Slider .VendorShopDetails .ShopName h6 {
+        margin: 10px 0
+    }
+    .VendorDetailsSlider .Slider .VendorShopDetails .Buttons {
+        width: 100%;
+        margin-top: 10px
+    }
+    .VendorDetailsSlider .Slider .VendorShopDetails .Buttons .col-4 {
+        width: 41.6666667%
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .TabSearch {
+        height: auto
+    }
+    .VendorDetails {
+        background-color: #262626;
+        z-index: 999;
+        height: calc(100vh - 96px);
+        margin-top: 0;
+        z-index: 999999;
+        position: relative
+    }
+    .VendorDetails.HomeBased {
+        background-color: #fff;
+        height: 100%
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MaleFemaleTab {
+        background: #f0f0f0;
+        border: 1px solid #d3d3d3;
+        border-radius: 10px;
+        padding: 4px;
+        margin-left: auto
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MaleFemaleTab ul {
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        border: none
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MaleFemaleTab ul li img {
+        height: 12px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MaleFemaleTab ul li:first-child img {
+        margin-right: 4px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MaleFemaleTab ul li:last-child img {
+        margin-left: 4px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MaleFemaleTab ul li a {
+        border-radius: 7px;
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        color: #fff;
+        font-size: 12px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MaleFemaleTab ul li a span {
+        display: none
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MaleFemaleTab ul li a.active {
+        background-color: #000
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MaleFemaleTab ul li a.active span {
+        display: block;
+        width: 40px;
+        min-width: initial
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch {
+        border-bottom: 1.5px solid #d7d7d7;
+        background-color: #000
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .col-md-4 {
+        order: 1;
+        margin-bottom: 12px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .col-md-3 {
+        order: 3;
+        width: 40%
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .col-md-5 {
+        width: 60%;
+        order: 2
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .MenuTab {
+        margin-top: 0
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .MenuTab ul {
+        padding-left: 0;
+        justify-content: flex-start
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .MenuTab ul li {
+        margin-right: 40px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .MenuTab ul li a {
+        font-size: 20px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .MenuTab ul li a.active {
+        color: #fff
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .VendorSearch {
+        display: block !important;
+        margin-bottom: 0
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .VendorSearch.Show {
+        display: initial
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .VendorSearch .input-group {
+        background-color: transparent;
+        border-radius: 60px;
+        background: #f0f0f0;
+        border: 1px solid #b7b5b5
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .VendorSearch .input-group input {
+        background-color: transparent;
+        border-color: transparent;
+        font-size: 14px;
+        color: #000
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .VendorSearch .input-group input::-moz-placeholder {
+        color: #8d8d8d
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .VendorSearch .input-group input::placeholder {
+        color: #8d8d8d
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .VendorSearch .input-group input:focus {
+        box-shadow: none
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .VendorSearch .input-group span {
+        background-color: transparent;
+        border-color: transparent
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTab {
+        padding-bottom: 11px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTab ul li a {
+        color: #8d8d8d;
+        border-radius: 7px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTab ul li a.active,
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTab ul li a:hover {
+        background-image: url(../images/active-bg-b.svg);
+        color: #fee3a6
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .TabHeading {
+        margin-bottom: 0;
+        border: 1px solid #ced4da;
+        padding: 5px;
+        border-radius: 5px;
+        background: #f4f4f4
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .TabHeading h4 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 34px;
+        color: #212121;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-bottom: 25px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .TabHeading .Bio .row {
+        margin: 0;
+        display: flex;
+        vertical-align: middle;
+        align-items: center
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .TabHeading .Bio .row .image {
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .TabHeading .Bio .row .text {
+        padding-left: 30px;
+        width: calc(100% - 100px);
+        max-width: 387px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .TabHeading .Bio .row .text p {
+        font-size: 16px;
+        line-height: 24px;
+        color: #8d8d8d;
+        flex: none;
+        order: 1;
+        flex-grow: 0
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single {
+        border-bottom: 1.5px solid #d7d7d7;
+        padding: 15px 0
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single:last-child {
+        padding-bottom: 100px !important;
+        margin-bottom: 100px !important;
+        border-bottom: none
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row {
+        margin: 0
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row .image {
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 74px;
+        height: 68px;
+        padding: 0;
+        border-radius: 10px;
+        overflow: hidden
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row .image::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .2)
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row .ServiceName {
+        width: calc(100% - 64px - 74px)
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row .ServiceName h4 {
+        color: #212121;
+        margin-bottom: 5px;
+        width: 90%
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row .ServiceName h4 img {
+        transform: rotate(180deg);
+        transition: .5s
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row .ServiceName h4.collapsed img {
+        transform: rotate(0deg)
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row .ServiceName .Time {
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        width: 100%
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row .ServiceName .Time h6 {
+        font-weight: 400;
+        font-size: 20px;
+        color: #212121;
+        margin: 0;
+        padding: 0
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row .ServiceName .Time p {
+        font-size: 12px;
+        line-height: 14px;
+        color: #8d8d8d;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        margin-left: 15px;
+        position: relative;
+        top: 2px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row .ServiceName .Time p img {
+        margin-right: 8px;
+        position: relative;
+        top: 2px
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row .Quantity {
+        padding: 0
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Services .Single .row .Quantity .counter {
+        margin-left: auto
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .RightSide .Cartview {
+        border: 1px solid #707070
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .RightSide .Cartview .CartHeader::before {
+        content: "";
+        left: 9.333333%;
+        width: 80.666667%
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .RightSide .Cartview .CartHeight.SechduleBox .SelectDate .Calender .Date .Single {
+        cursor: pointer
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .RightSide .Cartview .CartHeight.homeAddress {
+        transform: translate(-100%, 0)
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .RightSide .Cartview .CartHeight.homeAddress.Show {
+        transform: translate(0, 0)
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .TabSearch {
+        border-bottom: none;
+        border: 1px solid #444;
+        border-radius: 5px;
+        padding: 15px 7px;
+        background: #000
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .TabSearch .MenuTab ul {
+        justify-content: space-between
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .TabSearch .MenuTab ul li {
+        margin: 0
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .TabSearch .MenuTab ul li a {
+        font-size: 20px
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .TabSearch .VendorSearch {
+        margin-bottom: 12px
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .TabSearch .VendorSearch .input-group {
+        background-color: #525252
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .col-md-4 {
+        height: initial
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTab {
+        background-color: #000;
+        margin-bottom: 20px;
+        overflow: auto;
+        padding: 2px;
+        padding-bottom: 4px;
+        padding-left: 5px;
+        border-radius: 5px;
+        height: initial
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTab p {
+        display: block !important;
+        padding: 0;
+        margin: 0;
+        font-size: 8px;
+        color: #fff;
+        padding-bottom: 5px
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTab ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: nowrap
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTab ul li {
+        white-space: nowrap
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTab ul li a {
+        font-weight: 500;
+        font-size: 16px;
+        padding-top: 1px;
+        padding-bottom: 1px
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView {
+        height: initial
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Single .row {
+        height: 80px
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Single .row .ServiceName h4 {
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 300
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .Single .row .Time h6 {
+        font-size: 14px
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .tab-content .tab-pane .Services .ServicesTabView .tab-content .tab-pane #accordion .card .card-header a {
+        font-size: 16px;
+        line-height: 16px
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .AboutPara p {
+        font-size: 14px
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .VendorReviews {
+        height: initial
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .VendorReviews .RatingandNewReviews .AddReview .NewReview {
+        width: calc(100vw - 44px)
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .VendorReviews .RatingandNewReviews .AddReview .NewReview .UserData form textarea {
+        height: 264px
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .VendorReviews .RatingandNewReviews .AddReview .NewReview .UserData form .SubmitButton button {
+        display: block;
+        margin-left: auto;
+        width: -moz-max-content;
+        width: max-content;
+        white-space: nowrap
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .VendorReviews .Reviews::before {
+        display: none
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .VendorReviews .Reviews .Single {
+        width: 100%;
+        padding: 15px
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .VendorReviews .Reviews .Single:nth-child(even) {
+        padding-left: 15px
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .VendorReviews .Reviews .Single:nth-child(odd) {
+        padding-right: 15px
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .VendorReviews .Reviews .Single .UserDetails .Text {
+        padding-left: 10px;
+        padding-right: 0
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .VendorReviews .Reviews .Single .UserDetails .Text .UserName h6 {
+        font-size: 15px
+    }
+    .VendorDetails .VendorDetailsView .LeftSide .MenuView .VendorReviews .Reviews .Single .UserDetails .Text .Rating h6 svg {
+        width: 10px;
+        height: 10px
+    }
+    .VendorDetails .VendorDetailsView .RightSide {
+        margin-top: 40px
+    }
+    .VendorDetails .VendorDetailsView .RightSide .Cartview .CartHeight .Single .NameTime h5 {
+        font-size: 14px
+    }
+    .VendorDetails .VendorDetailsView .RightSide .Cartview .Total h4 {
+        font-size: 20px
+    }
+    .CheckOutHeader .checkout-header,
+    .checkout .checkout-body {
+        padding: 0
+    }
+    .CheckOutHeader .checkout-header .row h3 {
+        font-size: 38px
+    }
+    .CheckOutHeader .checkout-header .row p {
+        font-size: 15px
+    }
+    .packageListing .packageCart .packageMenu .single .packageList .singlePackage .time {
+        width: 126px;
+        max-width: 20%;
+        margin-left: auto;
+        margin-right: 18px
+    }
+}
+
+@media(max-width:390px) {
+    .footer .mob-center p.download-img.pt-4 {
+        text-align: center
+    }
+    .footer .mob-center p.social-img.pt-4 {
+        text-align: center
+    }
+    .footer .mob-center:nth-child(2) .col-lg-4.col-md-6.col-12 {
+        width: 100%;
+        max-width: 100%
+    }
+    .VendorDetails.HomeBased .VendorDetailsView .LeftSide .TabSearch .MenuTab ul li {
+        margin-right: 15px
+    }
+    .MyBookingSection .ProfileSection .Profile .Scroll {
+        height: calc(100vh - 251.3px);
+        overflow-y: scroll;
+        overflow-x: hidden
+    }
+    header .NavLink.Open {
+        width: 100%
+    }
+    .banner .bannerContent .row .bannerText h1 {
+        font-size: 21px
+    }
+    .banner .bannerContent .row .bannerText h1 span {
+        font-size: 27px;
+        line-height: 4px;
+        margin-top: 30px
+    }
+    .banner .bannerContent .row .bannerService .Find .Buttons button {
+        font-size: 13px;
+        height: 40px
+    }
+    .whereWeAre .data ul li {
+        margin-right: 20px;
+        margin-bottom: 3px
+    }
+    .whereWeAre .data {
+        width: 100%;
+        margin-top: 13px
+    }
+    .whereWeAre .salonParlourSpa .Tab ul {
+        width: 100%;
+        justify-content: space-around
+    }
+    .whereWeAre .salonParlourSpa .TabView ul li {
+        margin-right: 20px;
+        margin-bottom: 3px
+    }
+}
+
+@media(max-width:340px) {
+    .MyBookingSection .ProfileSection .Profile .Scroll {
+        height: calc(100vh - 251.3px);
+        overflow: auto
+    }
+}
