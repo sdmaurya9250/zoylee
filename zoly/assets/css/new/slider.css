@@ -1,0 +1,162 @@
+.TopSlider .Heading {
+    background-color: #363636;
+    color: #fff;
+    width: -moz-max-content;
+    width: max-content;
+    padding-right: 20px;
+    position: relative;
+    z-index: 9
+}
+
+.TopSlider .Heading h4 {
+    font-size: 25px;
+    line-height: 42px
+}
+
+.TopSlider .slider {
+    position: relative;
+    margin-left: -12px;
+    margin-right: -12px
+}
+
+.TopSlider .slider.OfferSlider {
+    margin-bottom: 100px;
+    padding-top: 38px
+}
+
+.TopSlider .slider.OfferSlider::before {
+    content: "";
+    position: absolute;
+    top: initial;
+    bottom: calc(100% + 24px);
+    left: 12px;
+    width: calc(100% - 24px);
+    height: 1px;
+    background-color: #707070
+}
+
+.TopSlider .slider.OfferSlider .slick-dots {
+    top: initial;
+    bottom: calc(100% + 12px)
+}
+
+.TopSlider .slider.OfferSlider .slick-dots li.slick-active {
+    background-color: #fee3a6
+}
+
+.TopSlider .slider.OfferSlider .slide {
+    padding: 20px 0
+}
+
+.TopSlider .slider.OfferSlider .slide img {
+    transition: .3s
+}
+
+.TopSlider .slider.OfferSlider .slide img:hover {
+    transform: scale(1.2)
+}
+
+.TopSlider .slider .slick-arrow {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 22px;
+    width: 24px;
+    height: 24px;
+    z-index: 9;
+    padding: 0;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    border: none;
+    background-color: transparent
+}
+
+.TopSlider .slider .slick-arrow img {
+    height: 24px;
+    width: 24px
+}
+
+.TopSlider .slider .slick-arrow.slick-prev {
+    right: 46px
+}
+
+.TopSlider .slider .slick-arrow.slick-next {
+    border-left: 10px solid #363636
+}
+
+.TopSlider .slider .slick-dots {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 0;
+    list-style-type: none;
+    display: flex;
+    height: 24px;
+    margin: 0;
+    vertical-align: middle;
+    align-items: center;
+    background-color: #363636;
+    padding-right: 20px;
+    max-width: 200px;
+    overflow: auto;
+    overflow-y: hidden;
+    margin: 0
+}
+
+.TopSlider .slider .slick-dots li {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    margin: 0 5px
+}
+
+.TopSlider .slider .slick-dots li:first-child {
+    margin-left: 0
+}
+
+.TopSlider .slider .slick-dots li:last-child {
+    margin-right: 0
+}
+
+.TopSlider .slider .slick-dots li button {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    padding: 0
+}
+
+.TopSlider .slider.PartnerSlider {
+    margin-bottom: 100px;
+    margin-left: 0;
+    margin-right: 0
+}
+
+.TopSlider .slider.PartnerSlider .slide img {
+    max-height: 34px;
+    max-width: auto;
+    width: auto;
+    display: block
+}
+
+@media(max-width:767px) {
+    .TopSlider .Heading h4 {
+        margin: 0;
+        font-size: 18px;
+        line-height: 55px
+    }
+    .TopSlider .slider.OfferSlider {
+        padding-top: 10px
+    }
+    .TopSlider .slider.OfferSlider .slick-dots li {
+        width: 5px;
+        height: 5px;
+        margin: 0 2px
+    }
+    .TopSlider .slider.PartnerSlider {
+        margin-bottom: 55px;
+        margin-top: 30px
+    }
+    .TopSlider .slider.PartnerSlider .slide img {
+        max-height: 25px
+    }
+}
