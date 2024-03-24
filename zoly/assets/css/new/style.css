@@ -571,7 +571,7 @@ header .SearchLocation .Search .SearchInput .SearchResult .SelectServiceVanue .f
     }
 }
 
-header .SearchLocation .Search .SearchInput .SearchResult .SelectServiceVanue .form-check label span.Zoylee {
+header .SearchLocation .Search .SearchInput .SearchResult .SelectServiceVanue .form-check label span.MakeOver {
     animation-name: example1;
     animation-duration: .3s
 }
@@ -8134,6 +8134,12 @@ body .service-listing-parent .services .service-boxes-container .service-boxes .
 }
 
 @media screen and (max-width:767px) {
+    .row .social-img {
+        text-align: right;
+        display: none;
+    }
+
+    
     .service-listing-parent .carousel-slider {
         height: calc(250px + 3vw)
     }
@@ -8530,7 +8536,7 @@ body .service-listing-parent .services .service-boxes-container .service-boxes .
 
 .zoyleeBusiness .background {
     background: transparent linear-gradient(180deg, rgba(29, 29, 29, 0.5764705882) 0%, rgba(26, 26, 26, 0) 100%) 0% 0% no-repeat padding-box;
-    background-color: #000;
+    background-color: #325b45;
 
     border-radius: 43px;
     padding: 68px 40px
@@ -8572,7 +8578,7 @@ body .service-listing-parent .services .service-boxes-container .service-boxes .
     border: none;
     width: -moz-max-content;
     width: max-content;
-    margin-left: auto
+    /* margin-left: auto */
 }
 
 .zoyleeBusiness .Heading .row .Tab ul li {
@@ -8885,7 +8891,7 @@ body .service-listing-parent .services .service-boxes-container .service-boxes .
     max-width: calc(100% - 491px);
     position: relative;
     z-index: 99;
-    background: transparent linear-gradient(90deg, #262626 0%, rgba(0, 0, 0, 0) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(90deg, #A37E2C 0%, rgba(0, 0, 0, 0) 100%) 0% 0% no-repeat padding-box;
     border-radius: 23px 0 0 23px;
     opacity: 1;
     padding-left: 101.4px;

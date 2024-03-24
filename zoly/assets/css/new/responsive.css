@@ -33,9 +33,9 @@
         margin-top: 100px
     }
     .banner .bannerContent .row .bannerService {
-        padding-top: 75px;
+        /* padding-top: 85px; */
         width: 91%;
-        margin-left: auto
+        /* margin-left: auto */
     }
     .banner .bannerContent .row .bannerService .Single .row .Text {
         padding: 50px 58px 50px 37px;
